@@ -1,0 +1,54 @@
+#default settings
+!OUT_PATH,out/
+
+#standard links template
+$,VideoRay,links_videoray.html,required/htm/links_videoray.htm,../../required/javascript/links_videoray.js,required/htm/links_sb.htm,
+$,Library,links_library.html,required/htm/links_library.htm,../../required/javascript/links_library.js,required/htm/links_sb.htm,
+$,Downloads,links_downloads.html,required/htm/links_downloads.htm,../../required/javascript/links_downloads.js,required/htm/links_sb.htm,
+$,Training,links_training.html,required/htm/links_training.htm,../../required/javascript/links_training.js,required/htm/links_sb.htm,
+$,Support,links_support.html,required/htm/links_support.htm,../../required/javascript/links_support.js,required/htm/links_sb.htm,
+$,Community,links_community.html,required/htm/links_community.htm,../../required/javascript/links_community.js,required/htm/links_sb.htm,
+$,ROV FAQ,links_rovfaq.html,required/htm/links_rovfaq.htm,../../required/javascript/links_rovfaq.js,required/htm/links_sb.htm,
+$,ROV Blog,links_rovblog.html,required/htm/links_rovblog.htm,../../required/javascript/links_rovblog.js,required/htm/links_sb.htm,
+$,Gallery,links_gallery.html,required/htm/links_gallery.htm,../../required/javascript/links_gallery.js,required/htm/links_sb.htm,
+
+#Document Commands
+!PRODUCT,SeeChart
+!VERSION,1.00.00
+!DOCTYPE,Operator's Manual
+!OUT_DIR,seechart/
+!VALID_PAGES,
+!VALID_TEXT,
+!TEMPLATE_COVER,required/htm/template_index_print.htm,index_print.htm
+
+#Documentation Generation
+v*,Introduction,,index.htm,,index_sb.htm,
+**,Copyright,copyright.html,required/htm/copyright.htm,,,
+v**,Language Support,,intro_language.htm,,,../../required/images/globe2.png
+v**,Table of Contents,,_toc_view.htm,,,
+p**,Table of Contents,,_toc_print.htm,,,
+v**,About this Document,intro_about.html,required/htm/intro_about.htm,../../required/javascript/intro_about.js,required/htm/intro_about_sb.htm,
+p**,About this Document,intro_about.html,required/htm/intro_about.htm,,required/htm/intro_about_p_sb.htm,
+v***,Customize this Document,custom_my_notes.html,required/htm/custom_my_notes.htm,,,
+#v**,VideoRay Library,nul,../../library/html/index.htm,,,
+*,Product Overview,,overview_.htm,overview.js,overview_sb.htm,overview.png
+**,How to Get More Help,how_to_get__more_help.html,required/htm/how_to_get_more_help.htm,,,
+**,Quick Start Instructions,,qs_.htm,qs_.js,qs_sb.htm,qs_.png
+***,Safety First,,qs_safety.htm,qs_safety.js,qs_safety_sb.htm,safety.png
+***,System Components,,qs_components.htm,qs_components.js,qs_components_sb.htm,qs_components.png
+***,Pre-Dive Preparations,,qs_predive.htm,qs_predive.js,qs_predive_sb.htm,qs_predive.png
+***,Dive Operations,,qs_dive.htm,qs_dive.js,qs_dive_sb.htm,qs_dive.png
+***,Post-Dive Operations,,qs_postdive.htm,qs_postdive.js,qs_postdive_sb.htm,qs_postdive.png
+v**,Product FAQ,,overview_faq.htm,,required/htm/overview_faq_sb.htm,../../required/images/overview_faq.png
+v**,Glossary / Index,,_glossary_view.htm,,,
+p**,Glossary,,_glossary_print.htm,,,
+
+*,Equipment Guide,,equipment_.htm,,,
+
+*,Software Guide,,software_.htm,,,
+
+*,Operations Guide,,operations_.htm,,,
+
+*,Maintenance Guide,,maintenance_.htm,,,
+
+*,Compatibility Guide,,compatibility_.htm,,,
